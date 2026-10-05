@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Golpe ou não? Teste e guia contra golpes digitais</title>
+<meta name="description" content="Cinco mensagens parecidas com as que chegam todos os dias por WhatsApp, SMS e ligação. Diga se é golpe e veja os sinais que entregam cada uma.">
+<meta name="theme-color" content="#1C5D99">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Golpe ou não? Teste e guia contra golpes digitais">
+<meta property="og:description" content="Faça o teste com cinco mensagens reais e aprenda a reconhecer golpes por WhatsApp, SMS e ligação.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@700;800&amp;family=Atkinson+Hyperlegible:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- Ícones reutilizados -->
+<svg width="0" height="0" style="position: absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-logo" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#1C5D99"/><path d="M16 5.5l8.5 3.2v6.6c0 5.4-3.6 9.6-8.5 11.2-4.9-1.6-8.5-5.8-8.5-11.2V8.7z" fill="#fff"/><path d="M13.6 13.2a2.5 2.5 0 1 1 3.6 2.3c-.8.4-1.2 1-1.2 1.8v.5" fill="none" stroke="#C62828" stroke-width="2.2" stroke-linecap="round"/><circle cx="16" cy="20.9" r="1.3" fill="#C62828"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-call" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-msg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+    <symbol id="i-bank" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 21h10M5 7h14M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+    <symbol id="i-gavel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 13l-7.5 7.5a2.1 2.1 0 0 1-3-3L11 10M16 16l6-6M8 8l6-6M9 7l8 8M21 11l-8-8"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></symbol>
+    <symbol id="i-restart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 4v6h6"/><path d="M3.5 15a9 9 0 1 0 2.1-9.4L1 10"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="#inicio" aria-label="Golpe ou não?, voltar ao início">
+      <svg class="brand-mark" aria-hidden="true"><use href="#i-logo"/></svg>
+      Golpe ou não?
+    </a>
+    <nav class="nav" aria-label="Seções da página">
+      <a href="#golpes">Golpes comuns</a>
+      <a href="#sinais">Sinais de alerta</a>
+      <a href="#caiu">Se você caiu</a>
+      <a href="#direitos">Seus direitos</a>
+      <a class="nav-cta" href="#teste">Fazer o teste</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<section id="inicio" class="hero">
+  <div class="container">
+    <div class="hero-copy">
+      <p class="badge h-rise"><span class="badge-dot" aria-hidden="true"></span>Projeto de extensão · FASIPE Cuiabá</p>
+      <h1 class="hero-title"><span class="h-mask">Golpe <span class="accent">ou não?</span></span></h1>
+      <p class="hero-lead h-rise" style="animation-delay: .2s">Cinco mensagens parecidas com as que chegam todos os dias por WhatsApp, SMS e ligação. Diga se é golpe e veja os sinais que entregam cada uma.</p>
+      <div class="hero-actions h-rise" style="animation-delay: .3s">
+        <a class="btn btn-primary" href="#teste">Começar o teste <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-outline" href="#caiu">Já caí em um golpe</a>
+      </div>
+      <ul class="hero-points h-rise" style="animation-delay: .4s">
+        <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Leva menos de dois minutos</li>
+        <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Gratuito e sem cadastro</li>
+        <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg>Nada do que você responde é salvo</li>
+      </ul>
+    </div>
+
+    <div id="teste" class="quiz h-rise" style="animation-delay: .35s" aria-labelledby="quiz-heading">
+      <h2 id="quiz-heading" class="sr-only">Teste: golpe ou não?</h2>
+
+      <div id="quiz-main">
+        <div class="quiz-head">
+          <span id="quiz-progress" class="quiz-title">Mensagem 1 de 5</span>
+          <span id="quiz-score" class="quiz-score">Acertos: 0</span>
+        </div>
+        <div class="quiz-bar" aria-hidden="true"><div id="quiz-bar" class="quiz-bar-fill"></div></div>
+
+        <div class="quiz-body">
+          <div class="quiz-channel">
+            <span class="quiz-avatar" aria-hidden="true">
+              <svg id="quiz-icon-call" hidden width="18" height="18"><use href="#i-call"/></svg>
+              <svg id="quiz-icon-msg" width="18" height="18"><use href="#i-msg"/></svg>
+              <svg id="quiz-icon-app" hidden width="18" height="18"><use href="#i-bell"/></svg>
+            </span>
+            <span id="quiz-channel">WhatsApp, número desconhecido</span>
+          </div>
+
+          <div class="quiz-screen">
+            <div id="quiz-typing" class="typing" hidden>
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <span class="sr-only">Carregando a próxima mensagem</span>
+            </div>
+            <div id="quiz-bubble" class="bubble bubble-in" tabindex="-1">
+              <p id="quiz-text"><span>Oi mãe, </span><span>troquei de número</span><span>! Salva esse aqui. Preciso de um favor: </span><span>me faz um Pix de R$ 850 agora</span><span>? </span><span>Não consigo atender ligação</span><span>, depois te explico.</span></p>
+            </div>
+          </div>
+
+          <p class="quiz-question" id="quiz-question">O que você acha?</p>
+          <div class="quiz-options" role="group" aria-labelledby="quiz-question">
+            <button type="button" id="quiz-golpe" class="qbtn">É golpe</button>
+            <button type="button" id="quiz-seguro" class="qbtn">É seguro</button>
+          </div>
+
+          <div id="quiz-feedback" class="feedback rise-in" hidden aria-live="polite"></div>
+        </div>
+      </div>
+
+      <div id="quiz-done" class="quiz-done rise-in" hidden>
+        <p class="done-label">Você acertou</p>
+        <p id="quiz-final-score" class="done-score" tabindex="-1">0 de 5</p>
+        <ul id="quiz-dots" class="done-dots" aria-hidden="true"></ul>
+        <p id="quiz-final-msg" class="done-msg"></p>
+        <div class="done-actions">
+          <button type="button" id="quiz-restart" class="btn btn-primary"><svg width="16" height="16" aria-hidden="true"><use href="#i-restart"/></svg>Fazer de novo</button>
+          <a class="btn btn-outline" href="#sinais">Ver os sinais de alerta</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="golpes" class="section">
+  <div class="container">
+    <p class="eyebrow">Conheça os roteiros</p>
+    <h2 class="section-title">Os golpes mais comuns</h2>
+    <p class="section-lead">Os nomes mudam, mas o roteiro se repete: alguém finge ser quem não é e cria um motivo para você agir rápido.</p>
+
+    <div class="cards">
+      <article class="card">
+        <span class="card-icon" aria-hidden="true"><svg width="24" height="24"><use href="#i-users"/></svg></span>
+        <h3>Falso parente</h3>
+        <p>Uma mensagem de número novo diz ser seu filho, neto ou amigo e logo pede um Pix urgente.</p>
+        <p class="tip"><strong>O que fazer</strong>Ligue para o número antigo da pessoa antes de mandar qualquer valor.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon" aria-hidden="true"><svg width="24" height="24"><use href="#i-bank"/></svg></span>
+        <h3>Falsa central do banco</h3>
+        <p>Alguém liga ou manda SMS sobre uma compra suspeita e pede senha, código ou transferência para uma conta de segurança.</p>
+        <p class="tip"><strong>O que fazer</strong>Desligue e ligue você mesmo para o número que está atrás do cartão.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon" aria-hidden="true"><svg width="24" height="24"><use href="#i-link"/></svg></span>
+        <h3>Link falso</h3>
+        <p>SMS ou e-mail sobre encomenda retida, multa, CPF irregular ou prêmio, sempre com um link para resolver.</p>
+        <p class="tip"><strong>O que fazer</strong>Não clique. Abra o site ou o aplicativo oficial digitando o endereço você mesmo.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon" aria-hidden="true"><svg width="24" height="24"><use href="#i-phone"/></svg></span>
+        <h3>Clonagem do WhatsApp</h3>
+        <p>Pedem o código de seis dígitos que chegou por SMS. Com ele, passam a usar a sua conta.</p>
+        <p class="tip"><strong>O que fazer</strong>Não repasse esse código para ninguém e ative a confirmação em duas etapas.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon" aria-hidden="true"><svg width="24" height="24"><use href="#i-scale"/></svg></span>
+        <h3>Falso advogado</h3>
+        <p>Usam dados reais do seu processo para cobrar uma taxa que liberaria um valor a receber.</p>
+        <p class="tip"><strong>O que fazer</strong>Confirme com o escritório por um telefone que você já conhecia.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon" aria-hidden="true"><svg width="24" height="24"><use href="#i-cart"/></svg></span>
+        <h3>Loja ou emprego falso</h3>
+        <p>Preço muito abaixo do normal ou promessa de renda fácil, desde que você pague algo antes.</p>
+        <p class="tip"><strong>O que fazer</strong>Pesquise o nome da loja e desconfie de quem cobra para você trabalhar.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="sinais" class="section section-alert">
+  <div class="container">
+    <p class="eyebrow">Sinais de alerta</p>
+    <h2 class="section-title" style="margin-bottom: 40px">Desconfie quando</h2>
+    <ul class="signals">
+      <li><span class="signal-num" aria-hidden="true">1</span><span>alguém tem <span class="wavy sv-ink">pressa</span> e não deixa você pensar</span></li>
+      <li><span class="signal-num" aria-hidden="true">2</span><span>pedem sua <span class="wavy sv-ink">senha, código ou Pix</span></span></li>
+      <li><span class="signal-num" aria-hidden="true">3</span><span>um <span class="wavy sv-ink">número novo</span> diz ser alguém conhecido</span></li>
+      <li><span class="signal-num" aria-hidden="true">4</span><span>o <span class="wavy sv-ink">link</span> não leva ao site oficial</span></li>
+      <li><span class="signal-num" aria-hidden="true">5</span><span>a oferta é <span class="wavy sv-ink">boa demais</span> para ser verdade</span></li>
+    </ul>
+    <div class="callout">
+      <svg width="24" height="24" aria-hidden="true"><use href="#i-shield"/></svg>
+      <p><strong>Na dúvida, pare e confirme por outro caminho:</strong> ligue para a pessoa, abra o aplicativo oficial ou procure o telefone no site do banco.</p>
+    </div>
+  </div>
+</section>
+
+<section id="caiu" class="section">
+  <div class="container split">
+    <div class="split-aside">
+      <p class="eyebrow">Passo a passo</p>
+      <h2 class="section-title">Se você caiu em um golpe</h2>
+      <p class="section-lead">Qualquer pessoa pode ser enganada. O que faz diferença é agir rápido, de preferência nas primeiras horas.</p>
+      <div class="urgent">
+        <svg width="22" height="22" aria-hidden="true"><use href="#i-alert"/></svg>
+        <p><strong>Não sinta vergonha.</strong> Quanto antes o banco for avisado, maiores as chances de bloquear e recuperar o dinheiro.</p>
+      </div>
+    </div>
+
+    <ol class="steps split-main">
+      <li class="step">
+        <span class="step-line" aria-hidden="true"></span><span class="step-fill sv-fill" aria-hidden="true"></span>
+        <span class="step-num" aria-hidden="true">1</span>
+        <div class="step-body"><h3>Ligue para o seu banco</h3><p>Conte o que aconteceu. Se o pagamento foi por Pix, peça a abertura do MED, o Mecanismo Especial de Devolução, e anote o número do protocolo.</p></div>
+      </li>
+      <li class="step">
+        <span class="step-line" aria-hidden="true"></span><span class="step-fill sv-fill" aria-hidden="true"></span>
+        <span class="step-num" aria-hidden="true">2</span>
+        <div class="step-body"><h3>Guarde as provas</h3><p>Faça prints das conversas e salve comprovantes, números de telefone e links usados no golpe.</p></div>
+      </li>
+      <li class="step">
+        <span class="step-line" aria-hidden="true"></span><span class="step-fill sv-fill" aria-hidden="true"></span>
+        <span class="step-num" aria-hidden="true">3</span>
+        <div class="step-body"><h3>Registre o boletim de ocorrência</h3><p>Pode ser feito pela internet, na Delegacia Virtual da Polícia Civil de Mato Grosso.</p></div>
+      </li>
+      <li class="step">
+        <span class="step-line" aria-hidden="true"></span><span class="step-fill sv-fill" aria-hidden="true"></span>
+        <span class="step-num" aria-hidden="true">4</span>
+        <div class="step-body"><h3>Avise seus contatos</h3><p>Se a sua conta foi clonada, conte para família e amigos antes que recebam pedidos de dinheiro em seu nome.</p></div>
+      </li>
+      <li class="step">
+        <span class="step-num" aria-hidden="true">5</span>
+        <div class="step-body"><h3>Troque as senhas</h3><p>Ative também a confirmação em duas etapas no WhatsApp, no e-mail e nos aplicativos de banco.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="direitos" class="section section-soft">
+  <div class="container">
+    <p class="eyebrow">Direito e cidadania</p>
+    <h2 class="section-title" style="margin-bottom: 48px">Seus direitos</h2>
+    <div class="rights">
+      <div class="right">
+        <span class="right-icon" aria-hidden="true"><svg width="22" height="22"><use href="#i-gavel"/></svg></span>
+        <h3>Golpe digital é crime</h3>
+        <p>Desde 2021, o Código Penal prevê pena maior para a fraude feita por mensagem, ligação, rede social ou e-mail falso (Lei 14.155/2021).</p>
+      </div>
+      <div class="right">
+        <span class="right-icon" aria-hidden="true"><svg width="22" height="22"><use href="#i-bank"/></svg></span>
+        <h3>Responsabilidade do banco</h3>
+        <p>Registre a contestação e guarde o protocolo. Em alguns casos, como falhas na segurança do próprio banco, a instituição pode ter que ressarcir o prejuízo.</p>
+      </div>
+      <div class="right">
+        <span class="right-icon" aria-hidden="true"><svg width="22" height="22"><use href="#i-lock"/></svg></span>
+        <h3>Seus dados são seus</h3>
+        <p>Pela LGPD, você pode perguntar a uma empresa quais dados ela tem sobre você, pedir correção e, em vários casos, a exclusão.</p>
+      </div>
+      <div class="right">
+        <span class="right-icon" aria-hidden="true"><svg width="22" height="22"><use href="#i-help"/></svg></span>
+        <h3>Ajuda gratuita</h3>
+        <p>A Defensoria Pública orienta quem não pode pagar advogado, e o Procon recebe reclamações contra empresas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="share" aria-labelledby="share-heading">
+  <div class="container">
+    <div>
+      <h2 id="share-heading">Ajude alguém a não cair</h2>
+      <p>Mande esta página para quem recebe muitas mensagens: pais, avós, amigos e colegas de trabalho.</p>
+    </div>
+    <div>
+      <button type="button" id="share-btn" class="btn btn-light"><svg width="18" height="18" aria-hidden="true"><use href="#i-share"/></svg>Compartilhar a página</button>
+      <span id="share-status" class="share-status" role="status"></span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-about">
+        <a class="brand" href="#inicio"><svg class="brand-mark" aria-hidden="true"><use href="#i-logo"/></svg>Golpe ou não?</a>
+        <p class="lead">Desenvolvido para a comunidade</p>
+        <p>Projeto de extensão Direito e Cidadania, do curso de Análise e Desenvolvimento de Sistemas da FASIPE Cuiabá.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Seções da página no rodapé">
+        <p class="footer-title">Navegue</p>
+        <a href="#teste">Teste</a>
+        <a href="#golpes">Golpes comuns</a>
+        <a href="#sinais">Sinais de alerta</a>
+        <a href="#caiu">Se você caiu</a>
+        <a href="#direitos">Seus direitos</a>
+      </nav>
+    </div>
+    <p class="footer-bottom">Conteúdo educativo. Não substitui orientação jurídica.</p>
+  </div>
+</footer>
+
+<script src="js/quiz.js"></script>
+</body>
+</html>
